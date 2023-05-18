@@ -53,7 +53,8 @@ int main(int ac, char **argv)
 			token = strtok(NULL, delim);
 		}
 		argv[i] = NULL;
-		
+		execmd(argv);
+
 		printf("%s\n", lineptr);
 		//free(lineptr);
 	}
