@@ -1,5 +1,10 @@
 #include "stdio.h"
-int main()
+/**
+ * main - entry point
+ *
+ * Return : 1 on successs else 0
+ */
+void main(void)
 {
 	printf("Hello world\t");
 }
